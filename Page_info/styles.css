@@ -1,0 +1,45 @@
+/* Css Reset*/
+
+* {
+	
+
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-size: 16px;
+	}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+	
+	font-weight: bold; /* this mean the negritas amount*/
+	letter-spacing: -1px; /* this is te space between letters */	
+	word-spacing: 10px; /* space is the space between words*/
+	text-align: center;
+	font-style:italic; /* can be normal or italic */
+	text-indent: 80px; /* this is a space added to the begging of the text*/
+	line-height: 1.4; /* this is the separation between lines*/
+	text-decoration: line-through; /* this can be underline , overline , line trough or NONE*/
+	text-transform: capitalize; /* This make every beggin of a word capital letter , also coud be lowecase, upercase or NONE*/
+	
+}
+
+<code></code>/* its an inline preset to display code you, if you dont want to be shown on your 
+	line you are working you need to do this
+*/
+code { 
+	display: block; /* you cand add background color , etc */
+}
+
+/*Background  */
+
+#background-1 {
+	background-image: url('images/blue_background.jpg'); /* name of the image this is if the image is on a folder in your project if not you should use the syntax of external url*/
+	background-image: url('images/blue_background.jpg');/*Por default se repite */
+	background-repeat: no-repeat;/*Para no repetir la imagen */
+	background-position: center center;/*Para alinear */
+	
+	background-image: url('images/blue_background.jpg'); bottom: left repeat-x; /*Para repetir la imagen pero partiendo desde abajo , y iniciando del lado izquierdo en el eje x , eje x horizontal eje y veritcal*/
+	
+}

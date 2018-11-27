@@ -1,0 +1,80 @@
+#container {
+border: double 6px black;
+	width: 400px;/* width es anchura e*/
+	margin: 0 auto;/* Esto es para que sea auto al centro , 0 arriba y izquierda y derecha igual*/
+	/* Esto es para que en cualquier sitio se despliegue siempre al centro muy importante*/
+}
+
+form  , form fieldset , form input {
+		text-align: center;
+		align-content: center;
+		
+}
+
+form {
+	background-image: url(imagenes/fondo.jpg);
+	padding: 20px;
+	font-family: Helvetica , Arial , sans-serif;
+	
+	
+}
+
+form fieldset {
+	background-image: url(imagenes/pinkfondo.jpg);
+	padding: 30px;
+	border: solid 3px black;
+	
+	
+	
+}
+
+form legend{
+	border: double 6px black;
+	background-image: url(imagenes/fondo.jpg);
+	padding: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+form input , form textarea {
+	
+
+display: block;
+margin-left: 10px;
+margin: 0 0 0 75px;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+cursor:pointer;
+
+}
+	
+
+
+form label {
+	font-size: 15px;
+	text-transform: uppercase;
+	
+} 
+
+form input[type="text"], form input[type="email"] , {
+	
+	font-size: 15px;
+	font-family: helvetica , arial , sans-serif;
+	color: black;
+	border: solid 3px black;
+	background-image: url(imagenes/fondo.jpg);
+	
+	
+}
+
+#boton [type="submit"] {
+	
+	background-image: url(imagenes/fondo.jpg); top: left repeat-x;
+	margin: 10px 0 10px 90px;
+	font-weight: bold;
+	border: double 6px black;
+	font-family: helvetica , arial , sans-serif;
+	cursor:pointer;
+}

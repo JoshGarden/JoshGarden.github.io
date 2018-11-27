@@ -1,0 +1,131 @@
+/*SImple css Reset */
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+body {
+	background: url(imagenes/fondo.jpg) top center no-repeat;
+	font-size: 18px;
+	font-family: impact , arial , sans-serif;
+	font-weight: 1px ;
+	text-align: center;
+	padding: 40px;s
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	
+	
+}
+
+h1, h2, h3 , h4 , h5 , h6 {
+	font-weight: normal;
+	padding: 0 0 10px;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+	background: url(imagenes/pinkfondo.jpg);
+	font-family: impact , sans-serif;
+}
+
+#container {
+	width:600px;
+	margin:0 auto;
+}
+
+.content-block {
+	
+	padding: 20px;
+	margin: 20px;
+	
+}
+#content {
+	border:double 6px black;
+}
+#reserve {
+	border:double 6px black;
+}
+
+#footer {
+font-weight: bold;
+	background: url(imagenes/pinkfondos.jpg) top left repeat;/*notworking*/
+	color: #f70cad;
+	font-size: 15px;
+}
+
+form  {
+	width: 300px;
+	text-align: left;
+
+	margin: 20px auto 0 ; /* para centrarlo el form */
+	
+	
+}
+
+legend {
+	border: dotted 3px black ;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 30px ;
+margin: 20px auto 0 ; 
+margin-bottom: 10px;
+padding: 5px;
+}
+
+form label {
+	display: block;
+	padding:5px;
+	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: lighter;
+	background: url(imagenes/pinkfondo.jpg);
+	color: black;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+form input  {
+	
+	text-align: center;
+	display: block;
+	padding: 15px;
+	margin: 0 0 10px;
+	font-size: 25px;
+	font-family: georgia , times , serif;
+	font-style: impact;
+		-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+
+}
+
+#boton{
+	
+	margin: 0px 0 0 90px;
+	
+	
+	
+	
+}
+
+
+
+html {
+	background: url(imagenes/fondo.jpg) no-repeat center center fixed; /*Codigo para imagen fullscren */
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+#header {
+	margin-left: 22px;
+}
+
+
+	
+	
+
+
